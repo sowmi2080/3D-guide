@@ -1,0 +1,41 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://example.com/your-image.jpg'); /* Optional */
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrapper {
+  text-align: center;
+  color: #000;
+}
+
+.content-wrapper h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-buttons button {
+  padding: 12px 24px;
+  margin: 10px;
+  background-color: #007BFF;
+  color: rgb(249, 241, 241);
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #0056b3;
+}
