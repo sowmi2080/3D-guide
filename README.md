@@ -1,5 +1,6 @@
 How to run it (npm install, npm run dev)
 
+npm install @react-three/drei @react-three/fiber react react-dom react-router-dom three
 
 
 
